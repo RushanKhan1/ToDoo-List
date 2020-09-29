@@ -1,0 +1,27 @@
+<%- include("header") -%>
+
+<div class="box" id="heading">
+	  <h1><%= listTitle %></h1>
+      </div>
+
+	  <div class="box">
+	      
+	  <% for (var i = 0; i < listItems.length; i++) { %>
+	      <div class="item">
+		  <input type="checkbox">
+	      <p><%= listItems[i] %></p>
+	     </div> <!-- closure of item -->
+	  <% } %>
+
+      
+      <form action="/" method="post" class="item">
+	  <input type="text" name="text" placeholder="New Item" autocomplete="off">
+	  <button type="submit" name="button" value="<%= listTitle %>">+</button>
+      </form>
+	  </div> <!-- closure of box -->
+      
+
+<!-- The scriptlet tag in ejs works on a line by line basis <% %> -->
+<!-- You can run basic javascript code with the scriptlet tag -->
+
+<%- include("footer") -%>
