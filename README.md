@@ -1,5 +1,5 @@
 # ToDoo-List
-Organize your day and boost your productivity with this ToDo list. Featuring a beatiful design and an easy to use interface. This ToDo list was made with Node.js, Express along with EJS templating.
+Organize your day and boost your productivity with this ToDo list. Featuring a beautiful design and an easy to use interface. This ToDo list was made with Node.js, Express along with EJS templating.
 <br>
 <br>
 <br>
