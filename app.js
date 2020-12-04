@@ -13,10 +13,9 @@ let todo = [];
 let workItems = [];
 
 app.get("/", function(req, res){
-    //you were here
     d = date();
     res.render('list', {listTitle: d,
-			listItems: todo}); //here we are passing list we should be in the views folder and then an object
+			listItems: todo}); //rendering list.ejs in the views folder
 })
 
 
